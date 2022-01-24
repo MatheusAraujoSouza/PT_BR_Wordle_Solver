@@ -4,6 +4,7 @@ Este é um solver feito em Python do jogo Wordle, que recebeu sua versão PT-BR 
 # Onde jogar
 Os sites para se jogar mais famosos até agora são:
 https://term.ooo/
+
 https://www.gabtoschi.com/letreco/
 
 # Arquivos
