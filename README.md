@@ -33,14 +33,22 @@ Finalmente, obtendo uma lista de todas as palavras da base de dados que atendem 
 Parte 2:
 
 Como o objetivo do jogo é acertar todas as letras da palavra, e não necessariamente acertar a palavra toda diretamente, podemos usar a frequência das letras nas palavras da lingua portuguesa a nosso favor.
+
 Veja que podemos atribuir à cada letra uma "frequência", explicitada no site https://pt.wikipedia.org/wiki/Frequ%C3%AAncia_de_letras.
+
 Como pode ser visto, a letra "a" tem a maior frequência de aparição na língua portuguesa, por volta de 14%. Isto nos dis que, ao pegar uma palavra aleatória da língua portuguesa, há aproximadamente 14% de chance de ser uma palavra com a letra "a".
+
 Assim, naturalmente, palavras que contém letras que são mais frequentes na língua portuguesa tem mais chances de acertar alguma letra da palavra secreta do jogo.
+
 Finalmente, é atribuído para cada letra do alfabeto um escalar correspondente a sua frequência, e para cada palavra no conjunto resultante dos filtros, soma-se esses valores de cada letra de uma palavra, e atribúi-se o valor da soma à palavra.
+
 Desta forma, palaras com um valor maior tem mais chance de conter alguma letra que está na palavra secreta do jogo.
 
+Por fim, todas as palavras do conjunto são mostradas, assim como o valor da soma associada, e começa-se a próxima iteração.
+
 # Observações:
+- Coloque o arquivo .csv e o Script na mesma pasta em seu computador para que o solver funcione.
 - A base de dados ainda é pequena. Não funciona em 100% dos casos.
-- O código está bem infantil. Utilizei a oportunidade para revisar Python, então há muito espaço para aprimoramento, mesmo com poucas linhas de comando.
+- A rotina está bem infantil. Utilizei a oportunidade para REVISAR Python, então há muito espaço para aprimoramento, mesmo com poucas linhas de código.
 
 
