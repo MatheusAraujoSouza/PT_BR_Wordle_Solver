@@ -3,9 +3,10 @@ Este é um solver feito em Python do jogo Wordle, que recebeu sua versão PT-BR 
 
 # Onde jogar
 Os sites para se jogar mais famosos até agora são:
-https://term.ooo/
 
-https://www.gabtoschi.com/letreco/
+- https://term.ooo/
+
+- https://www.gabtoschi.com/letreco/
 
 # Arquivos
 - Um arquivo .csv, que contém uma lista de aproximadamente 6 mil palavras da lingua portuguesa que contém cinco letras. As palavras não contém acento, nem letras maiúsculas, e apenas 5 caracteres por célula.
