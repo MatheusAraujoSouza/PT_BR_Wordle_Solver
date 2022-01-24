@@ -14,7 +14,7 @@ Os sites para se jogar mais famosos até agora são:
 
 # Funcionamento
 
-# Parte 1:
+## Parte 1:
 
 A partir da primeira tentativa do usuário, teremos no resultado o que chamei de "acertos": acerto verdes, amarelos e vermelhos.
 De início, o usuário terá que indicar o número de cada acerto. Veja que a somatória do número de acertos é sempre 5.
@@ -32,7 +32,7 @@ Com essas informações em mãos, já é possível filtrar a base de dados, a pa
 
 Finalmente, obtendo uma lista de todas as palavras da base de dados que atendem às restrições anteriores.
 
-# Parte 2:
+## Parte 2:
 
 Como o objetivo do jogo é acertar todas as letras da palavra, e não necessariamente acertar a palavra toda diretamente, podemos usar a frequência das letras nas palavras da lingua portuguesa a nosso favor.
 
