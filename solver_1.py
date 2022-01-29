@@ -49,6 +49,8 @@ for i in range(5):
     n_acertos_amarelos = int(input("Insira o número de acertos amarelos da rodada: "))
     n_acertos_vermelhos = int(input("Insira o número de acertos vermelhos da rodada: "))
     
+    
+    #Evite fazer isso, se chama repetição de código, crie uma função para fazer tudo isso que você fez na linha 53 a 63
     for i in range(n_acertos_verdes):
         lista_acerto_verde[n_acertos_verdes_totais +i][0] = input("Insira uma letra verde acertada: ")
         lista_acerto_verde[n_acertos_verdes_totais +i][1] = int(input("Insira a posição da letra verde acertada dada anteriormente: "))
@@ -59,6 +61,9 @@ for i in range(5):
         
     for i in range(n_acertos_vermelhos):
         lista_acerto_vermelho[n_acertos_vermelhos_totais +i] = input("Insira a letra em vermelho acertada: ")
+    
+    
+#o mesmo para esses Filtros, da 63 a 93 você está fazendo a mesma coisa, basta criar alguma função e chamar, vai deixar seu code mais clean     
     
 #
 # Filtro Verde
@@ -115,7 +120,10 @@ for i in range(5):
 #
 
     dic_palavras = {}
-
+    
+    
+    #Evite fazer isso também, 4 identações no código O(n^3) se não conseguir diminuir essa complexidade ao menos crie funções para chamar uma na outra
+    #no maximo 2 identações por função no seu código.
     for i in armazena:
         dic_palavras[i] = 0
         dic_condicao = {'a': 0, 'b': 0, 'c': 0, 'd': 0, 'e': 0, 'f': 0, 'g': 0, 'h': 0, 'i': 0, 'j': 0, 'k': 0, 'l': 0, 'm': 0, 'n': 0, 'o': 0, 'p': 0, 'q': 0, 'r': 0, 's': 0, 't': 0, 'u': 0, 'v': 0, 'w':0, 'x': 0, 'y': 0, 'z': 0}
